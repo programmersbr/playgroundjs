@@ -11,7 +11,8 @@ import './App.css'
 // import Override from './components/freecode/OverrideDefaultProps'
 // import Access from './components/freecode/Access-props-using-this-props'
 // import UsePropTypes from './components/freecode/Use-proptypes-to-define-the-props-you-expect'
-import CalendarDefault from './components/datepicker/CalendarDefault'
+// import CalendarDefault from './components/datepicker/CalendarDefault'
+import CalendarInline from './components/datepicker/CalendarInline'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       <Override /> */}
       {/* <Access /> */}
       {/* <UsePropTypes /> */}
-      <CalendarDefault />
+      {/* <CalendarDefault /> */}
+      <CalendarInline />
     </div>
   );
 }
