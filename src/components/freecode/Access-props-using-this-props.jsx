@@ -1,9 +1,12 @@
 //https://www.freecodecamp.org/portuguese/learn/front-end-development-libraries/react/access-props-using-this-props
-class ReturnTempPassword extends React.Component {
-  constructor(props) {
-    super(props);
 
-  }
+import { Component } from 'react'
+
+class ReturnTempPassword extends Component {
+  // constructor(props) {
+  //   super(props);
+
+  // }
   render() {
     return (
         <div>
@@ -15,11 +18,11 @@ class ReturnTempPassword extends React.Component {
   }
 };
 
-class ResetPassword extends React.Component {
-  constructor(props) {
-    super(props);
+export default class ResetPassword extends Component {
+  // constructor(props) {
+  //   super(props);
 
-  }
+  // }
   render() {
     return (
         <div>
@@ -27,7 +30,7 @@ class ResetPassword extends React.Component {
           <h3>We've generated a new temporary password for you.</h3>
           <h3>Please reset this password from your account settings ASAP.</h3>
           { /* Altere o código abaixo desta linha */ }
-          <ReturnTempPassword tempPassword="12345678" />
+          <ReturnTempPassword tempPassword="playground" />
           { /* Altere o código acima desta linha */ }
         </div>
     );

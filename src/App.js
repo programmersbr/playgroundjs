@@ -1,5 +1,4 @@
 import './App.css'
-import ToDo from './components/freecode/ToDo';
 
 // import ImageLoad from './components/ImageLoad'
 // import originalImg from './original-image.jpg'
@@ -8,6 +7,11 @@ import ToDo from './components/freecode/ToDo';
 // import MyComponent from './components/freecode/MyComponent'
 // import TypesOfFood from './components/freecode/TypesOfFood'
 // import Calendar from './components/freecode/Calendar';
+// import ToDo from './components/freecode/ToDo';
+// import Override from './components/freecode/OverrideDefaultProps'
+// import Access from './components/freecode/Access-props-using-this-props'
+// import UsePropTypes from './components/freecode/Use-proptypes-to-define-the-props-you-expect'
+import CalendarDefault from './components/datepicker/CalendarDefault'
 
 function App() {
   return (
@@ -20,7 +24,11 @@ function App() {
       {/* <MyComponent /> */}
       {/* <TypesOfFood /> */}
       {/* <Calendar /> */}
-      <ToDo />
+      {/* <ToDo />
+      <Override /> */}
+      {/* <Access /> */}
+      {/* <UsePropTypes /> */}
+      <CalendarDefault />
     </div>
   );
 }
