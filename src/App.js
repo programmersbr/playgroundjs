@@ -1,10 +1,13 @@
+import './App.css'
+import ToDo from './components/freecode/ToDo';
+
 // import ImageLoad from './components/ImageLoad'
 // import originalImg from './original-image.jpg'
 // import placeholderImg from './placeholder.jpg'
 
 // import MyComponent from './components/freecode/MyComponent'
 // import TypesOfFood from './components/freecode/TypesOfFood'
-import Calendar from './components/freecode/Calendar';
+// import Calendar from './components/freecode/Calendar';
 
 function App() {
   return (
@@ -16,7 +19,8 @@ function App() {
       /> */}
       {/* <MyComponent /> */}
       {/* <TypesOfFood /> */}
-      <Calendar />
+      {/* <Calendar /> */}
+      <ToDo />
     </div>
   );
 }
