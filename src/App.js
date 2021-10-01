@@ -13,17 +13,19 @@ import './App.css'
 // import UsePropTypes from './components/freecode/Use-proptypes-to-define-the-props-you-expect'
 // import CalendarDefault from './components/datepicker/CalendarDefault'
 import CalendarInline from './components/datepicker/CalendarInline'
-import PropsWithStateless from './components/freecode/Review-using-props-with-stateless-functional-components'
+// import PropsWithStateless from './components/freecode/Review-using-props-with-stateless-functional-components'
 import Menu from './components/MenuPlayground'
 
 function App() {
   return (
     <div className="App">
+      <Menu />
       {/* <ImageLoad 
         src = {originalImg} 
         placeholder = {placeholderImg} 
         alt = "Description" 
       /> */}
+      <div className="container">
       {/* <MyComponent /> */}
       {/* <TypesOfFood /> */}
       {/* <Calendar /> */}
@@ -33,8 +35,8 @@ function App() {
       {/* <UsePropTypes /> */}
       {/* <CalendarDefault /> */}
       <CalendarInline />
-      {/* <PropsWithStateless /> */}
-      <Menu />
+      {/* <PropsWithStateless /> */}      
+      </div>
     </div>
   );
 }

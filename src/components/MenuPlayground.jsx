@@ -7,6 +7,10 @@ import { ReactComponent as BoltIcon } from './icons/bolt.svg';
 import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
+import TypesOfFood from './freecode/TypesOfFood'
+
+let container = document.getElementById("container")
+
 function Menu() {
   return (
     <Navbar>
@@ -101,7 +105,7 @@ function DropdownMenu() {
             <h2>Freecode</h2>
           </DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>MyComponent</DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>TypesOfFood</DropdownItem>
+          <DropdownItem leftIcon={<BoltIcon />}>Types of Food</DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>ToDo</DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>Override</DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>Access</DropdownItem>
@@ -122,6 +126,7 @@ function DropdownMenu() {
           </DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>Calendar Default</DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>Calendar Inline</DropdownItem>
+          <DropdownItem leftIcon={<BoltIcon />}><a href="#">Custom DatePicker</a></DropdownItem>
         </div>
       </CSSTransition>
     </div>
