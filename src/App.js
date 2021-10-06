@@ -15,11 +15,12 @@ import './App.css'
 import CalendarInline from './components/datepicker/CalendarInline'
 // import PropsWithStateless from './components/freecode/Review-using-props-with-stateless-functional-components'
 import Menu from './components/MenuPlayground'
+import Memory from './components/Memory-game'
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      {/* <Menu /> */}
       {/* <ImageLoad 
         src = {originalImg} 
         placeholder = {placeholderImg} 
@@ -34,8 +35,9 @@ function App() {
       {/* <Access /> */}
       {/* <UsePropTypes /> */}
       {/* <CalendarDefault /> */}
-      <CalendarInline />
-      {/* <PropsWithStateless /> */}      
+      {/* <CalendarInline /> */}
+      {/* <PropsWithStateless /> */}
+      <Memory />
       </div>
     </div>
   );
