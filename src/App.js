@@ -12,10 +12,11 @@ import './App.css'
 // import Access from './components/freecode/Access-props-using-this-props'
 // import UsePropTypes from './components/freecode/Use-proptypes-to-define-the-props-you-expect'
 // import CalendarDefault from './components/datepicker/CalendarDefault'
-import CalendarInline from './components/datepicker/CalendarInline'
+// import CalendarInline from './components/datepicker/CalendarInline'
 // import PropsWithStateless from './components/freecode/Review-using-props-with-stateless-functional-components'
-import Menu from './components/MenuPlayground'
-import Memory from './components/Memory-game'
+// import Menu from './components/MenuPlayground'
+// import Memory from './components/Memory-game'
+import JogoDaVvelha from './components/jogo-da-velha/JogoDaVelha'
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <CalendarDefault /> */}
       {/* <CalendarInline /> */}
       {/* <PropsWithStateless /> */}
-      <Memory />
+      {/* <Memory /> */}
+      <JogoDaVvelha />
       </div>
     </div>
   );
